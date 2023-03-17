@@ -1,0 +1,24 @@
+{
+  "name": "rocount",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaurizioVacca/recount.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "scripts": {
+    "res:build": "rescript",
+    "res:clean": "rescript clean",
+    "res:dev": "rescript build -w"
+  },
+  "keywords": [
+    "rescript"
+  ],
+  "author": "Maurizio Vacca",
+  "license": "MIT",
+  "dependencies": {
+    "rescript": "^10.1.3"
+  }
+}
