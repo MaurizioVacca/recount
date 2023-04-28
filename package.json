@@ -19,6 +19,7 @@
   "author": "Maurizio Vacca",
   "license": "MIT",
   "dependencies": {
+    "@rescript/core": "^0.3.0",
     "rescript": "^10.1.3"
   }
 }
