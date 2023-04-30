@@ -1,12 +1,4 @@
 module Recount = {
-    /**
-   * External dependencies/optional parameters are:
-   * - rootId (where to get text from);
-   * - ?wpm (words per minute, optional set to 200) - hint: offering preset? e.g. medium=265
-   * - ?template: an HTML template literal
-   * @returns
-   * - 
-   */
   type readingSpeed = {
     slow: int,
     relaxed: int,
